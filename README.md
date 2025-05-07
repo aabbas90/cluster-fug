@@ -56,13 +56,13 @@ where `INDEX_TYPE` and `CONTRACTION_TYPE` can be choosen as:
 | DAppLAEC | HNSW | dense_laec_bf_later   |
 
 For example to run **GAEC**:
-	```bash
+```bash
 ./src/dense_multicut_text_input <PATH_TO_PROBLEM_INSTANCE_TXT> brute_force gaec
-	```
+```
  For more information run: 
 ```bash
 ./src/dense_multicut_text_input --help
-	```
+```
 
 ### Python solver:
 An example to compute multicut on a set of features:
@@ -87,9 +87,12 @@ Instances used in the paper can be obtained from [structured-prediction-prob-arc
 ## References
 If you use this work please cite as
 ```
-@article{abbas2023clusterfug,
-  title={ClusterFuG: Clustering Fully connected Graphs by Multicut},
+@inproceedings{abbas2023clusterfug,
+  title={ClusterFuG: clustering fully connected graphs by multicut},
   author={Abbas, Ahmed and Swoboda, Paul},
-  journal={arXiv preprint arXiv:2301.12159},
-  year={2023}
+  booktitle={International Conference on Machine Learning},
+  pages={19--30},
+  year={2023},
+  organization={PMLR}
 }
+```
